@@ -1,50 +1,59 @@
-# Objective: Create visualizations that convey a compelling story.
+# Task 2: Data Visualization and Storytelling
 
-## Superstore Sales Analysis Dashboard
+## Internship: Data Analyst Internship by Elevate Labs
 
-This project presents a comprehensive data visualization and storytelling dashboard built in *Power BI* using the Superstore dataset. The goal is to derive actionable business insights related to *sales, profit, quantity, region, category, and **segment* performance.
-
-## Dataset:I took "Superstore.csv" as Dataset foe visualization
-
-## Dashboard Overview
-
-The Power BI dashboard includes:
-
-- Total Sales: $2.30M  
-- Total Profit: $286.40K  
-- Total Quantity Sold: 38K Units  
-
-### Visuals Included:
-
-- Bar Chart: Sales by Region  
-- Map Visualization: Profit by State  
-- Stacked Bar Chart: Profit by Sub-Category and Category  
-- Pie Chart: Sales by Segment  
-- Line Chart: Sales by Year  
+### Objective:
+Create compelling visualizations using Power BI to tell a meaningful data story based on the Superstore dataset.
 
 
-
-## Key Insights
-
-- The West region contributes the highest to total sales.
-- Consumer segment leads with over *50%* of total sales.
-- Technology and Office Supplies categories are the most profitable.
-- States like California, New York, and Washington show high profitability.
-- Copiers, Phones, and Accessories are top-performing sub-categories.
-- Sub-categories such as Tables and Bookcases result in consistent losses.
+## Dataset:
+*Superstore.csv*  
+The dataset contains historical order data including customer details, order dates, product categories, sales, profit, discount, quantity, and regional information.
 
 
-## Recommendations
+## Tools Used:
+- *Power BI Desktop*  
+- *Microsoft Excel* (for quick data preview)
 
-- Focus on high-performing regions like West and East.
-- Increase investment in Technology and Office Supplies.
-- Develop marketing campaigns targeting the Consumer segment.
-- Revise strategies or eliminate underperforming products like Tables and Bookcases.
-- Explore ways to turn around performance in loss-generating states like Texas.
+## Dashboard Overview:
+The Power BI dashboard consists of multiple visuals that highlight key sales and profit trends, customer segments, and regional performance.
 
-## Tools Used
+### Included Visuals:
+1. Map Visualization: 
+   - Displays profit across U.S. states with color-coded bubbles.
+2. Bar Chart - Profit by Sub-Category:
+   - Compares profit contributions of different product sub-categories.
+3. Pie Chart - Sales by Segment:
+   - Shows percentage contribution of Consumer, Corporate, and Home Office segments.
+4. Line Chart - Sales by Year:
+   - Analyzes sales trends from 2011 to 2014.
+5. Bar Chart - Sales by Region:
+   - Compares total sales across West, East, Central, and South regions.
+6. KPI Cards:
+   - Showcases Total Profit: 286.40K, Total Quantity Sold: 38K, Total Sales: 2.30M.
+7. Slicer Filters:
+   - Month-wise, Segment-wise, and Region-wise filters for interactive analysis.
 
-- Power BI Desktop
-- Superstore Dataset (CSV)
-- Data Modeling & DAX Calculations
-- Interactive Visualizations & Filters
+
+## Business Insights:
+- *West Region* is the top performer in sales, followed by East.
+- *Phones* and *Chairs* are the most profitable sub-categories.
+- *Technology* category yields higher profits, while some Office Supplies lead to losses.
+- *Consumer Segment* accounts for more than 50% of sales.
+- Sales have seen a consistent upward trend from 2012 to 2014.
+
+
+## Best Practices Followed:
+- Chose the right visual for each analysis.
+- Avoided color overuse and clutter.
+- Highlighted key takeaways using KPIs.
+- Used filters for better interactivity and storytelling.
+- Focused on extracting business insights from visuals.
+
+
+## Files Included:
+- Superstore.csv (dataset)
+- Dashboard.png (Power BI dashboard)
+- story of dashboard pictures
+- README.md (this file)
+
